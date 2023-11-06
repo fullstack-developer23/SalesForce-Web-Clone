@@ -1,0 +1,602 @@
+*{
+    color:#032D60;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.nav-wrapper{
+    display: flex;
+}
+
+nav{
+    margin: 0rem 5rem;
+}
+
+.leftnav{
+    display: flex; 
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.leftnav > a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 20px;
+}
+
+.rightnav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 110px; */
+}
+
+.contactHeadTop{
+    font-size: 14px;
+    text-decoration: underline;
+    padding: 5px;
+    text-align: center;
+}
+
+.topNum{
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+}
+
+.buttonTop{
+    background: #2e844a;
+    padding: 8px 24px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight:bold;
+    border-style: none;
+}
+
+/* .banner{
+    background-image: url("./images/hero-banner.jpeg");
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.bannerHead{
+    font-size: 56px;
+    line-height: 64px;
+    padding: 0px 0px 0px 76px;
+}
+
+.bannerContent{
+    font-size: 20px;
+    padding: 0px 0px 0px 76px;
+}
+
+.row{
+    background: url("./images/hero-banner.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+/* .hero-background{
+    background: url("./images/hero-banner.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-btn{
+    float: left;
+    width: 50%;
+
+}
+
+.row-btn{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-btn button{
+    width: 160px;
+    margin-left: 77px;
+    padding: 15px;
+}
+
+.bannButton1{
+    background:#0176d3;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bannButton1:hover{
+    background:#032D60;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bannButton2{
+    border:2px solid #0176d3;
+    color: #0176d3;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bannButton2:hover{
+    border:2px solid #032D60;
+    color: #032D60;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sectionhead{
+    padding: 15px 0px 15px 0px;
+}
+
+.sectionhead > h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.section2boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 100px 0px 100px;
+}
+
+.box1 img{
+    border-radius:16px 16px 0px 0px;
+}
+
+.box2 img{
+    border-radius:16px 16px 0px 0px;
+}
+
+.box3 img{
+    border-radius:16px 16px 0px 0px;
+}
+
+.box-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 258px;
+    text-align: center;
+    color: #032D60;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 0px 0px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 43px;
+}
+
+.box-content p {
+    margin: 0px;
+    text-align: left;
+    margin: 40px 40px 32px;
+}
+
+.box-content a{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px 40px 0px 40px;
+}
+
+.help-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-box h3{
+    font-size: 20px;
+    color:#032D60;
+}
+
+.content-box p{
+    color: #181818;
+}
+
+.content-box a{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.sectionhead-industry{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionhead-industry h2{
+    font-size: 48px;
+    text-align: center;
+}
+
+.sectionhead-industry p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.sectionhead-industry button{
+    padding: 10px 45px;
+    font-size: 16px;
+    color: #0176d3;
+    border:2px solid #0176d3;
+    background: none;
+    line-height: 24px;
+    border-radius: 5px;
+}
+
+.icon-boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-content{
+    display: flex;
+    flex-direction: column;
+    width: 88px;
+    height: 88px;
+    background: white;
+    border-radius: 50%;
+}
+
+.icon-content img{
+    width: 42px;
+    height: 42px;
+}
+
+.image-box{
+    background: url("https://wp.salesforce.com/en-gb/wp-content/uploads/sites/16/2023/10/php-industries-manufacturing.webp?resize=150,150");
+    background-size: cover;
+    border: 1px solid black;
+}
+
+/* 
+.icon-content p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #032D60;
+    cursor: pointer;
+    text-align: center;
+} */
+
+.boxSection{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.boxSection-customer{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px 90px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin: 0px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxSection-content{
+    display: flex;
+    justify-content: center;
+}
+
+.box-contentt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 88px;
+    height: 88px;
+    margin: 0px 30px;
+}
+
+.box-contentt p{
+    color: #032D60;
+    font-weight: 600;
+}
+
+.sectionhead-customers h2{
+    font-size: 48px;
+    text-align: center;
+    margin: 0px;
+}
+
+.box-customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 198px;
+    height: 98px;
+    margin: 0px 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sectionhead-skills{
+    /* padding-top: 60px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionhead-skills h2{
+    font-size: 48px;
+    text-align: center;
+}
+
+.sectionhead-skills p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.skills-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.boxx img{
+    width: 120px;
+    height: 120px;
+}
+
+.boxx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 384px;
+    height: 423px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 5px #d3d3d369;
+    margin: 0px 20px;
+    padding: 30px 0px 0px 0px;
+    border-radius: 20px;
+}
+
+.boxx .module{
+    font-size: 12px;
+}
+
+.boxx a{
+    font-size: 16px;
+    color: #032D60;
+    font-weight: 600;
+    text-align: left;
+}
+
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.skill-content h3{
+    font-size: 24px;    
+}
+
+.skill-content .module{
+    background: #1ea7fd33;
+    padding: 8px;
+    width: 15%;
+    border-radius: 25px;
+}
+
+.free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.learn-free button{
+    padding: 10px 45px;
+    font-size: 16px;
+    color: #0176d3;
+    border:2px solid #0176d3;
+    background: none;
+    line-height: 24px;
+    border-radius: 5px;
+}
+
+.crm-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+
+}
+
+.crm-column1 h2{
+    font-size: 40px;
+}
+
+.crm-column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.crm-column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.crm-column1 button{
+    background: #0176d3;
+    padding: 16px 32px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+
+.crm-column1 p{
+    font-size: 18px;
+    color: #181818;
+}
+
+.next-to-crm{
+    background: url("https://wp.salesforce.com/en-gb/wp-content/uploads/sites/16/2023/01/hp-page-break-img-hills.png?resize=2048,570");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.col1{
+    padding: 0px;
+}
+
+.col1 img{
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 0px 20px 0px #6f6e6e69;
+}
+
+.col2 img{
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 0px 20px 0px #6f6e6e69;
+}
+
+.col3 img{
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 0px 20px 0px #6f6e6e69;
+}
+
+.col1-content, .col2-content, .col3-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px #6f6e6e69;
+    padding: 30px 40px;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.report{
+    font-size: 12px;
+    color: #032D60;
+    background: #eaf5fe;
+    padding: 5px 10px;
+    width: 10%;
+    border-radius: 30px;
+}
+
+.col1-content p{
+    color: #181818;
+}
+
+.col2-content p{
+    color: #181818;
+}
+
+.col3-content p{
+    color: #181818;
+}
+
+.col1-content a{
+    font-weight: 600;
+}
+
+.col2-content a{
+    font-weight: 600;
+}
+
+.col3-content a{
+    font-weight: 600;
+}
+
+footer{
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.footer-logo p{
+    font-weight: 700;
+    color: #59575c;
+    font-size: 14px;
+}
+
+.footer-colmumns{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-colmumns a{
+    text-decoration: none;
+    color: #0176d3;
+    font-size: 12px;
+    padding: 8px 0px;
+}
